@@ -3,6 +3,7 @@ from pyrogram.types import Message
 from pymongo import ReturnDocument
 from TEAMZYRO import collection, SUDO, app, user_collection
 from TEAMZYRO.unit.zyro_rarity import rarity_map  # Importing rarity_map
+from TEAMZYRO.unit.zyro_power import require_power
 
 SUDO_USERS = SUDO
 
