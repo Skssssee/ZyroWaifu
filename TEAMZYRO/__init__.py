@@ -25,16 +25,16 @@ def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
 
 # ---------------------------- CONSTANTS ---------------------------------
-api_id = os.getenv("API_ID", "")  # Fetch from environment variable
-api_hash = os.getenv("API_HASH", "")   # Fetch from environment variable
+api_id = os.getenv("API_ID", "24411134")  # Fetch from environment variable
+api_hash = os.getenv("API_HASH", "da78963da6eaaf521133e00628434271")   # Fetch from environment variable
 
-TOKEN = os.getenv("TOKEN")          # Fetch from environment variable
+TOKEN = os.getenv("8363093533:AAGcWLwyjQ_SmO0L_BeUbmw46F89sr6HW1I")          # Fetch from environment variable
 
-GLOG = os.getenv("GLOG", "HINATA_LOG_GC") # USERNAME ONLY
-CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "Zyro_arts") #USERNAME ONLY
-SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1002309742084") #USERNAME ONLY
+GLOG = os.getenv("GLOG", "urufuffrir8r7rr7r8") # USERNAME ONLY
+CHARA_CHANNEL_ID = os.getenv("CHARA_CHANNEL_ID", "urufuffrir8r7rr7r8") #USERNAME ONLY
+SUPPORT_CHAT_ID = os.getenv("SUPPORT_CHAT_ID", "-1003002725218") #USERNAME ONLY
 
-mongo_url = os.getenv("MONGO_URL", "")  # Fetch from environment variable
+mongo_url = os.getenv("MONGO_URL", "mongodb+srv://rikenag263:W8sox45KuiGeTAWf@cluster0.twepfwf.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")  # Fetch from environment variable
 PHOTO_URL = [
     os.getenv("PHOTO_URL_1", "https://files.catbox.moe/7ccoub.jpg"),
     os.getenv("PHOTO_URL_2", "https://files.catbox.moe/7ccoub.jpg")
